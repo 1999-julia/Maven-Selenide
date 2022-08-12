@@ -8,7 +8,7 @@ public class GoogleTest {
 
     @Test
     public void userCanSearch() throws InterruptedException {
-        open("https://www.google.com");
+        open("https://www.google.com?&tbm=isch");
         new GooglePage().searchFor("Евтеева Юлия");
 
         SearchResultsPage results = new SearchResultsPage();
