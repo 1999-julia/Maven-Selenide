@@ -14,6 +14,6 @@ public class GoogleTest {
         SearchResultsPage results = new SearchResultsPage();
         results.getResults().shouldHave(sizeGreaterThan(1));
         results.getResult(0).shouldHave(text("Евтеева Юлия"));
-        wait(500);
+        
     }
 }
